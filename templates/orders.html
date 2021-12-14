@@ -1,0 +1,150 @@
+<html>
+<head>
+  <style>
+    body {
+      text-align: center;
+    	 font-family: 'Verdana', serif;
+    	 font-size: 16;
+       background-color: coral;
+    }
+    h1 {
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+    }
+    h3 {
+      text-align: center;
+    }
+    h4 {
+      font-size: 6vw;
+      text-align: center;
+    }
+    img {
+      max-width: 200px;
+      height: 135px;
+    }
+    #theDiv {
+      width: 100%;
+      height: auto;
+      border: solid black 2px;
+      position: relative;
+    }
+    .map {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .food1 {
+      margin-left: 5%;
+      width: 12%;
+      height: auto;
+      position: relative;
+    }
+
+    .btn1 {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+
+    }
+
+    .btn2 {
+      margin: 0;
+      position: relative;
+      left: 77%;
+      -ms-transform: translate(-65%, -55%);
+      transform: translate(-50%, -20%);
+
+    }
+
+    .miscText {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 75%;
+      -ms-transform: translate(-15%, -50%);
+      transform: translate(-15%, -50%);
+    }
+
+    .miscText2 {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 90%;
+      -ms-transform: translate(-8%, -50%);
+      transform: translate(-8%, -50%);
+    }
+
+    .App-header {
+      text-align:center;
+    }
+    .navbar-nav {
+      margin-left: auto;
+    }
+
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+      <div class="container-fluid">
+		<a class="navbar-brand" href="/">FoodLumbia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/orders">My Orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log Out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <h1>My Orders</h1>
+  <br />
+  <div id="theDiv">
+    <h3>Current Order</h3>
+    <div class="food1">
+      <img src=ABC-Chinese1.png alt="food1" />
+      <h4>ABC Chinese</h4>
+    </div>
+    <div class="btn1">
+      <button type="button" class="btn btn-primary btn-lg">Track My Order</button>
+    </div>
+    <div class="miscText">
+      <h4>Status:</h4>
+      <h4>In Delivery</h4>
+    </div>
+    <div class="miscText2">
+      <h4>ETA: 7.25</h4>
+      <h4>- 7.28 pm</h4>
+    </div>
+  </div>
+  <br />
+  <br />
+  <div id="theDiv">
+    <h3>Past Orders</h3>
+    <div class="food1">
+      <img src=JohnJoy.png alt="food2" />
+      <h4>John Joy</h4>
+      <div class="btn2">
+        <button type="button" class="btn btn-secondary btn-sm">View Order</button>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

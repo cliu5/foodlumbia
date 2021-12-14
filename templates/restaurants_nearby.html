@@ -1,0 +1,149 @@
+<html>
+
+<head>
+  <style>
+
+  
+    .div-inline {
+      display: inline-block;
+    }
+
+    .headingalign {
+      margin-left: 40px;
+    }
+
+    .dropdownalign {
+      margin-right: 30px;
+      float: right;
+    }
+
+    .navbar-nav {
+      margin-left: auto;
+    }
+
+    .mainbox {
+      /*border: 2px solid black;*/
+      width: 90%;
+      height: 60%;
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+
+    .box1 {
+      width: 31%;
+      height: 100%;
+      float: left;
+      border: 2px solid black;
+      margin: 10px;
+    }
+
+    .box2 {
+      width: 31%;
+      height: 100%;
+      float: left;
+      border: 2px solid black;
+      margin: 10px;
+    }
+
+    .box3 {
+      width: 31%;
+      height: 100%;
+      float: left;
+      border: 2px solid black;
+      margin: 10px;
+    }
+
+    .food {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .distance {
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+
+    .amt_ppl {
+      float: right;
+      margin-right: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">FoodLumbia</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">My Orders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Log Out</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</br>
+</br>
+<div class="div-inline headingalign">
+  <h1>Restaurants Around You</h1>
+</div>
+<div class="dropdown div-inline dropdownalign">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select a Food Category
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+<div class="dropdown div-inline dropdownalign">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    In 30 Min
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+<div class="mainbox">
+  <div class="box1">
+    <img src=food1.jpg alt="food1" class="food"/>
+    <h1><a href='/front_page'>ABC Chinese</a></h1>
+    <div class="distance">In 1 mile.</div>
+    <div class="amt_ppl">2 People Joined</div>
+  </div>
+  <div class="box2">
+    <img src=food2.jpg alt="food2" class="food"/>
+    <h1>John Joy</h1>
+    <div class="distance">In 1 mile.</div>
+    <div class="amt_ppl">2 People Joined</div>
+  </div>
+  <div class="box3">
+    <img src=food1.jpg alt="food3" class="food"/>
+    <h1>Nam Son</h1>
+    <div class="distance">In 1 mile.</div>
+    <div class="amt_ppl">2 People Joined</div>
+  </div>
+</div>
+</body>
+</html>

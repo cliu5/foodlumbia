@@ -1,0 +1,129 @@
+<html>
+<head>
+  <style>
+  	h1 {
+  		text-align: center;
+  	}
+  	h2 {
+  		text-align: center;
+  	}
+	.float-container {
+	    /*border: 3px solid #fff;*/
+	    padding: 5px;
+	}
+	.float-child {
+	    width: 40%;
+	    height: 45%;
+	    float: left;
+	    padding: 20px;
+	    border: 2px solid black;
+	    margin: 5%;
+	}  
+	.row {
+		margin: 50px;
+		height: 50px;
+  		text-align: center;
+		font-size: 2.5vw;
+		border: 2px solid black;
+	}
+	.row1 {
+		margin: 50px;
+		height: 50px;
+  		text-align: center;
+		font-size: 2.5vw;
+		border: 2px solid black;
+	}
+	.prices {
+		float: right;
+	}
+  	.notice {
+		position: fixed;
+		left: 50%;
+		bottom: 20px;
+		transform: translate(-50%, -50%);
+		margin: 0 auto;
+		display: inline-block;
+	    overflow: hidden;
+	    white-space: nowrap;
+  	}
+  	.btn1 {
+		width: 10%;
+		margin: 0;
+		position: absolute;
+		top: 80%;
+		left: 47%;
+    }
+    .navbar-nav {
+      margin-left: auto;
+    }
+
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+	<a class="navbar-brand" href="/">FoodLumbia</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">My Orders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Log Out</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h1>Checkout</h1>
+<div class="float-container">
+  <div class="float-child">
+	    <div class="row">
+	    	&nbsp;&nbsp;VISA &nbsp;&nbsp; **** &nbsp;&nbsp; ---- &nbsp;&nbsp; ---- &nbsp;&nbsp; 9245
+	    </div>
+	    <div class="row">
+	    	&nbsp;&nbsp;CITI &nbsp;&nbsp; **** &nbsp;&nbsp; ---- &nbsp;&nbsp; ---- &nbsp;&nbsp; 5215
+	    </div>
+	    <div class="row">
+	    	&nbsp;&nbsp;+&nbsp;Add New Card
+		</div>
+  </div>
+  <div class="float-child">
+    <h2>Your Order</h2>
+    <div class="prices">US $18.20</div>
+    <div>Yang Zhou Fried Rice x1</div>
+    <div class="prices">US $12.30</div>	
+    <div>Xiao Long Bao x1</div>
+	</br>
+    <div>
+    	Subtotal
+    	</br>
+    	<b>US$30.5</b>
+    	</br>
+    	Tax (8.875%)
+    	</br>
+    	<b>US$2.67</b>
+    	</br>
+    	Total
+    	</br>
+    	<b>US$33.17</b>
+    </div>
+  </div> 
+</div>
+<div class="btn1">
+	<button type="button" class="btn btn-primary btn-lg"><a href="/match">Order</a></button>
+</div>
+<div class="notice">
+	<p>
+		YOUR ORDER IS PROTECTED BY A SECURE CONNECTION. BY PLACING YOUR ORDER, YOU AGREE TO THE <b>USER AGREEMENT</b> AND <b>PRIVACY POLICY</b>.
+	</p>
+</div>
+</body>
+</html>
